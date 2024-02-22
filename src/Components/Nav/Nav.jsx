@@ -12,9 +12,9 @@ const Nav = () => {
     ];
 
     return (
-        <nav>
-            <div onClick={() => setOpen(!open)}>
-                <span>{open === true ? <XMarkIcon className="h-6 w-6 text-purple-800" />
+        <nav className='bg-purple-400'>
+            <div className='md:hidden' onClick={() => setOpen(!open)}>
+                <span>{open === true ? <XMarkIcon className="h-6 w-6 text-white" />
                     :
                     <Bars3Icon className="h-6 w-6 text-purple-800" />
 
@@ -23,7 +23,7 @@ const Nav = () => {
 
 
             </div>
-            <ul className="md:flex">
+            <ul className={` mt-2 pl-6 md:flex absolute md:static duration-500 bg-purple-500 ${open ? 'top-6' : '-top-36'}`}>
 
 
                 {
