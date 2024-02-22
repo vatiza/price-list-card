@@ -1,13 +1,14 @@
 
 import './App.css'
+import Nav from './Components/Nav/Nav'
 
 function App() {
 
 
   return (
     <>
-      <h1 className=" text-purple-500 font-bold underline">
-        Hello world!</h1>
+      <Nav></Nav>
+      <h1 className='text-7xl font-bold text-purple-800'>Price list of Cards</h1>
     </>
   )
 }
