@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "name": "Dumbbells Set",
+        "price": 99.99,
+        "features": {
+            "weight": "20 lbs",
+            "material": "Cast Iron",
+            "grip": "Textured",
+            "quantity": "Pair"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Adjustable Weight Bench",
+        "price": 199.99,
+        "features": {
+            "adjustability": "Multiple Positions",
+            "weight capacity": "300 lbs",
+            "padding": "High Density Foam",
+            "material": "Steel"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Jump Rope",
+        "price": 12.99,
+        "features": {
+            "length": "Adjustable",
+            "material": "Nylon",
+            "handle": "Foam",
+            "color": "Black"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Pull-Up Bar",
+        "price": 29.99,
+        "features": {
+            "installation": "Doorway",
+            "material": "Steel",
+            "grip": "Foam",
+            "weight capacity": "250 lbs"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Resistance Bands Set",
+        "price": 39.99,
+        "features": {
+            "levels": "5",
+            "material": "Latex",
+            "length": "48 inches",
+            "handles": "Cushioned"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Exercise Mat",
+        "price": 24.99,
+        "features": {
+            "dimensions": "24\" x 68\"",
+            "material": "PVC",
+            "thickness": "1/4 inch",
+            "texture": "Non-Slip"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kettlebell",
+        "price": 49.99,
+        "features": {
+            "weight": "15 lbs",
+            "material": "Cast Iron",
+            "finish": "Vinyl Coated",
+            "handle": "Wide Grip"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Yoga Block",
+        "price": 7.99,
+        "features": {
+            "dimensions": "4\" x 6\" x 9\"",
+            "material": "Foam",
+            "density": "High Density",
+            "color": "Purple"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Ab Roller",
+        "price": 19.99,
+        "features": {
+            "material": "Steel",
+            "handles": "Foam",
+            "assembly": "Required",
+            "weight capacity": "300 lbs"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Gymnastic Rings",
+        "price": 59.99,
+        "features": {
+            "material": "Wood",
+            "strap length": "15 ft",
+            "weight capacity": "600 lbs",
+            "installation": "Ceiling Mount"
+        }
+    }
+]

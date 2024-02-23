@@ -1,6 +1,6 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
-import Link from '../Link/Link';
 import { useState } from 'react';
+import Link from '../Link/Link';
 const Nav = () => {
     const [open, setOpen] = useState(false);
 
@@ -23,13 +23,12 @@ const Nav = () => {
 
 
             </div>
-            <ul className={` mt-2 pl-6 md:flex absolute md:static duration-500 bg-purple-500 ${open ? 'top-6' : '-top-36'}`}>
+            <ul className={` pl-6 hover:bg-purple-400 md:flex absolute md:static duration-500 bg-purple-500 ${open ? 'top-6' : '-top-36'}`}>
 
 
                 {
                     routes.map(route => <Link key={route.id}
-                        route={route}
-                    ></Link>)
+                        route={route}></Link>)
                 }
             </ul>
 
