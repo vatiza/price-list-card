@@ -115,7 +115,6 @@ const Dashboard = () => {
         }
     ]
 
-    console.log(students)
     return (
         <div>
             <LineChart
